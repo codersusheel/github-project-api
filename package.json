@@ -1,0 +1,23 @@
+{
+  "name": "github-project-api",
+  "version": "1.0.0",
+  "description": "GitHub based project discovery and portfolio API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [
+    "github",
+    "api",
+    "portfolio",
+    "projects"
+  ],
+  "author": "Haproven",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0"
+  }
+}
